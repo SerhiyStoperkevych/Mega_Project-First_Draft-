@@ -1,0 +1,66 @@
+body {
+    background-color: #2387db;
+    color: #eeeeee;
+};
+
+img {
+    border-radius: 50%;
+};
+
+.head {
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Stick to the top of the viewport */
+    background-color: #3498db;
+    z-index: 100; /* Ensure it appears above other content */
+    padding: 10px;
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    margin-right: 10px; /* Add spacing between logo and text */
+}
+
+.menu {
+    display: flex;
+    gap: 20px; /* Add spacing between menu items */
+    margin-left: 40px;
+}
+
+.menu .bi {
+    margin-top: 18px;
+}
+
+.icons {    
+    display: flex;
+    gap: 10px; /* Add spacing between icons */
+    margin-left: auto; /* Push to the right */
+    margin-right: 20px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc; /* Add border for input */
+    border-radius: 5px; /* Add border radius */
+    margin: 10px;
+}
+
+.some, .bi {
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer;
+}
